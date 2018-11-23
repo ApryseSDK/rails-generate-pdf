@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <%= link_to root_path, class: "navbar-brand" do %>
+        <i class="far fa-file-pdf"></i>
+        <span class="m-l-2">Rails Generate PDFs</span>
+      <% end %>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+      </ul>
+
+      <% if action_name.to_sym == :show %>
+        <%= link_to 'Back', root_path, class: "btn btn-outline-secondary mx-2" %>
+        <%= link_to 'DOWNLOAD PDF', invoice_path(::Invoice.find(params[:id]), format: :pdf), class: "btn btn-outline-success my-2 my-sm-0" %>
+      <% end %>
+
+    </div>
+  </div>
+</nav>

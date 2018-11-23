@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  from_full_name: MyString
+  from_address: MyString
+  from_email: MyString
+  from_phone: MyString
+  to_full_name: MyString
+  to_address: MyString
+  to_email: MyString
+  to_phone: MyString
+  status: MyString
+  discount: 9.99
+  vat: 9.99
+
+two:
+  from_full_name: MyString
+  from_address: MyString
+  from_email: MyString
+  from_phone: MyString
+  to_full_name: MyString
+  to_address: MyString
+  to_email: MyString
+  to_phone: MyString
+  status: MyString
+  discount: 9.99
+  vat: 9.99
