@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  root to: 'invoices#index'
+    root 'invoices#index'
 
-  resources :invoices, only: [:index, :show]
+   resources :invoices, only: [:index, :show]
+    get 'invoices/index'
+    get 'invoices/show'
 end
+
