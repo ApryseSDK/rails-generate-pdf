@@ -8,7 +8,6 @@ class InvoicesController < ApplicationController
    return (((((f)*100).to_i).to_d)/100).to_s
   end
   def index
-    logger.debug("AAA")
       @invoices = scope
   end
 
