@@ -1,24 +1,6 @@
-# README
+# How to Generate PDFs With Ruby on Rails
+This project contains the source code for this [blog post](https://www.pdftron.com/blog/rails/how-to-generate-pdf-with-ruby-on-rails).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Branch rails-5-2-1 contains the source code for a previous version of the [blog post](https://www.pdftron.com/blog/rails/how-to-generate-pdf-with-ruby-on-rails-5-2-1).
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![](https://onepixel.pdftron.com/rails-generate-pdf)
